@@ -90,7 +90,7 @@ export var countries = [
         name:"France"
     },
     {
-        name:"France"
+        name:"Allemagne"
     },
     {
         name:"Royaume-Uni"
