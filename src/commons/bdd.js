@@ -84,3 +84,21 @@ export const travels = [
         }
     },
 ]
+
+export var countries = [
+    {
+        name:"France"
+    },
+    {
+        name:"France"
+    },
+    {
+        name:"Royaume-Uni"
+    },
+    {
+        name:"Espagne"
+    },
+    {
+        name:"Portugal"
+    }
+]

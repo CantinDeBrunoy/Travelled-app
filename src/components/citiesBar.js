@@ -2,9 +2,18 @@ import './citiesBar.css';
 import React, { useState } from 'react';
 import Travel from './travel';
 import {travels} from "../commons/bdd.js"
+import {countries} from "../commons/bdd"
 
 function CitiesBar() {
 
+    let tab = [];
+
+
+    countries.map((country,indexC) =>{
+
+        tab.push(travels.filter((travel)=> travel.country === country.name))
+    })
+    console.log(tab);
     
 
     const [HideMenu,setHidenMenu] = useState(false)
@@ -25,9 +34,8 @@ function CitiesBar() {
                     click
                 </div>
                 <div className="citiesBar-content">
-                    {travels.map((travel,index)=>
-                        <Travel key={index} travel={travel}/>
-                    )}  
+        
+                     
                 </div>
                 
                 
