@@ -1,0 +1,28 @@
+.travelsByCountries{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.travelsByCountries-Title{
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+.travelsByCountries-name{
+    text-align: center;
+    width: 100%;
+}
+
+.travelsByCountries:hover .travelsByCountries-AllTravels{
+   max-height: 1500px;
+   transition: max-height 1s ease-out;
+}
+
+.travelsByCountries-AllTravels{
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .25s ease-out;
+}

@@ -1,0 +1,101 @@
+.Travel{
+    display: flex;
+    flex-direction: column;
+}
+
+.Travel-importInfo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.Travel-arrow{
+    transform: rotate(0deg);
+    transition: transform .15s ease-in;
+    cursor: pointer;
+}
+
+.Travel-arrow-open{
+    transform: rotate(90deg);
+    transition: transform .15s ease-out;
+}
+
+.Travel-infos{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .25s ease-out;
+    transform-origin: top;
+}
+
+.Travel-infos>*{
+    margin: 0 0 0 0;
+    pointer-events: none;
+}
+
+.Travel-open{
+    max-height: 1500px;
+    transition: max-height .5s ease-in;
+}
+
+.Travel-open>div{
+    pointer-events: auto;
+}   
+
+.Travel-TextTravelInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.Travel-infos-subtitle{
+    font-weight: bold;
+}
+
+.Travel-budjet{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .25s ease-out;
+    transform-origin: top;
+}
+
+.Travel-budjet-open{
+    max-height: 1500px;
+    transition: max-height .5s ease-in;
+}
+
+.Travel-infos-subinfos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+.Travel-upper-buton-more-details{
+    width: 0px;
+    background-color: red;
+    color: yellow;
+}
+
+.Travel-buton-more-details{
+    margin-top: 3px;
+    background-color: green;
+    color: black;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.Travel-buton-more-details:hover .Travel-upper-buton-more-details{
+    width: 100%;
+    transition: width .45s ease-in;
+}
+
+
