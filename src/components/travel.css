@@ -79,23 +79,21 @@
 }
 
 
-.Travel-upper-buton-more-details{
-    width: 0px;
-    background-color: red;
-    color: yellow;
-}
-
 .Travel-buton-more-details{
-    margin-top: 3px;
-    background-color: green;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: white;
     color: black;
     border: 1px solid;
-    border-radius: 5px;
+    width: fit-content;
+    padding: 5px;
 }
 
-.Travel-buton-more-details:hover .Travel-upper-buton-more-details{
-    width: 100%;
-    transition: width .45s ease-in;
+.Travel-buton-more-details:hover{
+    background-color: black;
+    color: white;
 }
+
+
 
 

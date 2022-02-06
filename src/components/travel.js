@@ -42,7 +42,6 @@ function Travel(props) {
         )
     }, [])
 
-    console.log(PrintInfoTravel);
     return (
         <div className="Travel">
             <div className='Travel-importInfo'>
@@ -67,7 +66,7 @@ function Travel(props) {
                     </span>
                     <span>
                         <span className='Travel-infos-subtitle'>Money Spent :</span> {TotalBudjet}€<br />
-                        <div className="Travel-buton-more-details"><div className="Travel-upper-buton-more-details" onClick={handleClickMoreDetails}>{MoreDetails === true ? "Less Details" : "More Details"}</div></div>
+                        <div className="Travel-buton-more-details" onClick={handleClickMoreDetails}>{MoreDetails === true ? "Less Details" : "More Details"}</div>
                         <div className={MoreDetails === true ? "Travel-budjet Travel-budjet-open" : "Travel-budjet "}>
                             <div className='Travel-infos-subinfos'><img src={activity} height="50px" />{props.travel.moneySpent.activities}€</div>
                             <div className='Travel-infos-subinfos'><img src={food} height="50px" />{props.travel.moneySpent.food}€</div>
