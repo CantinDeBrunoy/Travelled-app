@@ -343,6 +343,21 @@ export const travels = [
         date: "July 2019"
     },
     {
+        name: "Montréal",
+        country: "Canada",
+        timeTravelled: 7,
+        people: ["Wayl,Kiwi"],
+        pictures: [],
+        coordonate: {lat:45.5017,long:-73.5673},
+        moneySpent: {
+            hotel: 0,
+            food: 100,
+            activities: 50,
+            meansOfTransports: 220
+        },
+        date: "June 2022"
+    },
+    {
         name: "Saint Sorlin",
         country: "France",
         timeTravelled: 7,
@@ -374,6 +389,9 @@ export var countriesName = [
     },
     {
         name: "Belgium"
+    },
+    {
+        name: "Canada"
     },
     {
         name: "Spain"
