@@ -372,6 +372,82 @@ export const travels = [
         },
         date: "July 2019"
     },
+    {
+        name: "Biarritz",
+        country: "France",
+        timeTravelled: 4,
+        people: ["Amir","Dej","Lucas"],
+        pictures: [],
+        coordonate: {lat:43.4831519,long:-1.558626},
+        moneySpent: {
+            hotel: 122,
+            food: 100,
+            activities: 100,
+            meansOfTransports: 230
+        },
+        date: "August 2023"
+    },
+    {
+        name: "Seedorf",
+        country: "Switzerland",
+        timeTravelled: 3,
+        people: ["Alexandre","Didier","François"],
+        pictures: [],
+        coordonate: {lat:47.05,long: 7.3333},
+        moneySpent: {
+            hotel: 122,
+            food: 100,
+            activities: 100,
+            meansOfTransports: 230
+        },
+        date: "August 2023"
+    },
+    {
+        name: "Veysonnaz",
+        country: "Switzerland",
+        timeTravelled: 4,
+        people: ["Alexandre","Didier","François"],
+        pictures: [],
+        coordonate: {lat:46.2,long:7.3333},
+        moneySpent: {
+            hotel: 90,
+            food: 60,
+            activities: 20,
+            meansOfTransports: 80
+        },
+        date: "August 2023"
+    },
+    {
+        name: "Genève",
+        country: "Switzerland",
+        timeTravelled: 1,
+        people: ["Alexandre","Didier","François"],
+        pictures: [],
+        coordonate: {lat:46.2,long:6.1667},
+        moneySpent: {
+            hotel: 40,
+            food: 20,
+            activities: 20,
+            meansOfTransports: 80
+        },
+        date: "August 2023"
+    },
+    {
+        name: "New York",
+        country: "United States",
+        timeTravelled: 10,
+        people: ["Didier","Wayl","Laura"],
+        pictures: [],
+        coordonate: {lat:40.730610,long:-73.935242},
+        moneySpent: {
+            hotel: 637,
+            food: 300,
+            activities: 400,
+            meansOfTransports: 730
+        },
+        date: "December 2023"
+    },
+    
 ]
 
 export var countriesName = [
@@ -395,5 +471,11 @@ export var countriesName = [
     },
     {
         name: "Spain"
+    },
+    {
+        name: "Switzerland"
+    },
+    {
+        name: "United States"
     }
 ]

@@ -11,7 +11,12 @@ function TravelsByCountries(props) {
     const { countries } = useCountries()
     const [Flag, setFlag] = useState();
 
+    
+
     useEffect(() => {
+        const toto = countries.filter(countrie => countrie.name.includes('United'))
+        console.log(toto);
+
         setTravels(props.travels)
         setCountry(props?.travels[0]?.country)
         const flag = countries.filter((country) => country.name === props?.travels[0]?.country)
