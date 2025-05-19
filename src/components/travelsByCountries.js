@@ -15,7 +15,7 @@ function TravelsByCountries(props) {
 
     useEffect(() => {
         const toto = countries.filter(countrie => countrie.name.includes('United'))
-        console.log(toto);
+        console.log(countries);
 
         setTravels(props.travels)
         setCountry(props?.travels[0]?.country)

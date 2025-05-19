@@ -447,12 +447,227 @@ export const travels = [
         },
         date: "December 2023"
     },
-    
+    {
+        name: "Rome",
+        country: "Italy",
+        timeTravelled: 2,
+        people: ["Lolo"],
+        pictures: [],
+        coordonate: {lat:41.902782,long:12.496366},
+        moneySpent: {
+            hotel: 250,
+            food: 100,
+            activities: 200,
+            meansOfTransports: 180
+        },
+        date: "June 2024"
+    },
+    {
+        name: "Sidi Bou Saïd",
+        country: "Tunisia",
+        timeTravelled: 2,
+        people: ["Baba","Max","Wayl"],
+        pictures: [],
+        coordonate: {lat: 36.869835,long:10.341369},
+        moneySpent: {
+            hotel: 50,
+            food: 75,
+            activities: 0,
+            meansOfTransports: 60
+        },
+        date: "Mai 2024"
+    },
+    {
+        name: "Djerba",
+        country: "Tunisia",
+        timeTravelled: 2,
+        people: ["Baba","Max","Wayl"],
+        pictures: [],
+        coordonate: {lat:33.83,long:10.845147},
+        moneySpent: {
+            hotel: 150,
+            food: 250,
+            activities: 300,
+            meansOfTransports: 100
+        },
+        date: "Mai 2024"
+    },
+    {
+        name: "Douz",
+        country: "Tunisia",
+        timeTravelled: 2,
+        people: ["Baba","Max","Wayl"],
+        pictures: [],
+        coordonate: {lat:33.456535,long:9.038601},
+        moneySpent: {
+            hotel: 0,
+            food: 0,
+            activities: 40,
+            meansOfTransports: 10
+        },
+        date: "Mai 2024"
+    },
+    {
+        name: "Séoul",
+        country: "South Korea",
+        timeTravelled: 4,
+        people: ["Yani","Benjamin","Minh Tri","Antoine","Tom","Marie","Clément"],
+        pictures: [],
+        coordonate: {lat:37.532600,long:127.024612},
+        moneySpent: {
+            hotel: 100,
+            food: 50,
+            activities: 400,
+            meansOfTransports: 80
+        },
+        date: "Mai 2025"
+    },
+    {
+        name: "Hanoï",
+        country: "Vietnam",
+        timeTravelled: 4,
+        people: ["Yani","Benjamin","Antoine","Tom","Marie"],
+        pictures: [],
+        coordonate: {lat:21.028511,long:105.804817},
+        moneySpent: {
+            hotel: 150,
+            food: 40,
+            activities: 40,
+            meansOfTransports: 150
+        },
+        date: "Mai 2025"
+    },
+    {
+        name: "Cat Ba",
+        country: "Vietnam",
+        timeTravelled: 3,
+        people: ["Yani","Benjamin","Antoine","Tom","Marie"],
+        pictures: [],
+        coordonate: {lat:20.72779000,long:107.04819000},
+        moneySpent: {
+            hotel: 150,
+            food: 80,
+            activities: 200,
+            meansOfTransports: 50
+        },
+        date: "Mai 2025"
+    },
+    {
+        name: "Ninh Bình",
+        country: "Vietnam",
+        timeTravelled: 2,
+        people: ["Yani","Benjamin","Antoine","Tom","Marie"],
+        pictures: [],
+        coordonate: {lat:20.2506149,long:105.9744536},
+        moneySpent: {
+            hotel: 150,
+            food: 30,
+            activities: 20,
+            meansOfTransports: 50
+        },
+        date: "Mai 2025"
+    },
+    {
+        name: "Ha Giang",
+        country: "Vietnam",
+        timeTravelled: 4,
+        people: ["Yani","Benjamin","Antoine","Tom","Marie"],
+        pictures: [],
+        coordonate: {lat:22.766206,long:104.97844940},
+        moneySpent: {
+            hotel: 0,
+            food: 15,
+            activities: 250,
+            meansOfTransports: 0
+        },
+        date: "Mai 2025"
+    },
+    {
+        name: "Beijing",
+        country: "China",
+        timeTravelled: 4,
+        people: ["Yani","Benjamin","Antoine","François","Clément","Pierre"],
+        pictures: [],
+        coordonate: {lat:39.916668,long:116.383331},
+        moneySpent: {
+            hotel: 70,
+            food: 50,
+            activities: 100,
+            meansOfTransports: 250
+        },
+        date: "March 2025"
+    },
+    {
+        name: "Xi'an",
+        country: "China",
+        timeTravelled: 4,
+        people: ["Yani","Benjamin","Antoine","François","Clément","Pierre"],
+        pictures: [],
+        coordonate: {lat:34.25833,long:108.92861},
+        moneySpent: {
+            hotel: 65,
+            food: 60,
+            activities: 150,
+            meansOfTransports: 220
+        },
+        date: "March 2025"
+    },
+    {
+        name: "Zhāngjiājiè",
+        country: "China",
+        timeTravelled: 4,
+        people: ["Yani","Benjamin","Antoine","François","Clément","Pierre"],
+        pictures: [],
+        coordonate: {lat:29.117001,long:110.478996},
+        moneySpent: {
+            hotel: 50,
+            food: 60,
+            activities: 200,
+            meansOfTransports: 240
+        },
+        date: "March 2025"
+    },
+    {
+        name: "Zhāngjiājiè",
+        country: "China",
+        timeTravelled: 4,
+        people: ["Yani","Benjamin","Antoine","François","Clément","Pierre"],
+        pictures: [],
+        coordonate: {lat:29.117001,long:110.478996},
+        moneySpent: {
+            hotel: 50,
+            food: 60,
+            activities: 200,
+            meansOfTransports: 240
+        },
+        date: "March 2025"
+    },
+    {
+        name: "Guangzhou",
+        country: "China",
+        timeTravelled: 4,
+        people: ["Yani","Benjamin","Antoine","François","Clément"],
+        pictures: [],
+        coordonate: {lat:23.128994,long:113.253250},
+        moneySpent: {
+            hotel: 50,
+            food: 60,
+            activities: 200,
+            meansOfTransports: 240
+        },
+        date: "March 2025"
+    },
 ]
 
 export var countriesName = [
     {
         name: "France"
+    },
+    {
+        name: "Italy"
+    },
+    {
+        name: "Tunisia"
     },
     {
         name: "Germany"
@@ -477,5 +692,15 @@ export var countriesName = [
     },
     {
         name: "United States"
+    }
+    ,
+    {
+        name: "China"
+    },
+    {
+        name: "South Korea"
+    },
+    {
+        name: "Vietnam"
     }
 ]

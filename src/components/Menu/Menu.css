@@ -1,0 +1,37 @@
+.Menu {
+    display: flex;
+    background: white;
+    border-radius: 9999px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    padding: 0.5rem 1rem;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: fit-content;
+    position: absolute;
+    top: 5%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  .tab {
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: black;
+    border-radius: 9999px;
+    transition: ease 0.2s;
+  }
+  
+  .tab.active {
+    background: #dcefd0; /* couleur onglet sélectionné */
+  }
+  
+  .tab:hover {
+    background: #f0f0f0;
+  }
+  

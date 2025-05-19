@@ -1,11 +1,13 @@
 import CitiesBar from './components/citiesBar'
-import "./App.css"
+import Menu from './components/Menu/Menu'
+import "./components/Menu/Menu.css"
 import Map from "./components/map"
 
 function App() {
   return (
     <div className="App">
-      <CitiesBar />
+      {/* <CitiesBar /> */}
+      <Menu/>
       <Map />
     </div>
   );

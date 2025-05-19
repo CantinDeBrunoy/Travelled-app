@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
-import Marker from "../assets/img/marker.png"
+import Marker from "../assets/img/markerGreen.png"
 import HomeMarker from "../assets/img/home-marker.png"
 import { travels } from "../commons/bdd.js"
 import "./map.css"
@@ -27,7 +27,6 @@ class Map extends Component {
 
     render() {
         return (
-            // Important! Always set the container height explicitly
             <div style={{ height: '100vh', width: '100%' }}>
                 <GoogleMapReact
                     bootstrapURLKeys={{ key: "AIzaSyDKKM12U3DGYq4JUbpUwcaSQh_Vy4bI2nk" }}

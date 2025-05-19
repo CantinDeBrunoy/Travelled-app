@@ -35,7 +35,6 @@ function CitiesBar() {
         else {
             setHidenMenu(true);
         }
-        console.log(HideMenu);
     }
     if (Travels) {
         return (
