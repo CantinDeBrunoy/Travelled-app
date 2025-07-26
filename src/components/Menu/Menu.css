@@ -1,7 +1,7 @@
 .Menu {
     display: flex;
     background: white;
-    border-radius: 9999px;
+    border-radius: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     padding: 0.5rem 1rem;
     gap: 1rem;
@@ -20,10 +20,10 @@
     background: transparent;
     border: none;
     font-size: 1rem;
-    padding: 0.5rem;
+    padding: 0.5rem 0.8rem 0.5rem 0.5rem;
     cursor: pointer;
     color: black;
-    border-radius: 9999px;
+    border-radius: 13px;
     transition: ease 0.2s;
   }
   

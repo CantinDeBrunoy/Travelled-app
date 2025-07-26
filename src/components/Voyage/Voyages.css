@@ -1,0 +1,105 @@
+.voyages-page {
+  margin-top: 5vh;
+  }
+
+  .voyages{
+    padding: 2rem;
+    background-color: #f9fafb; 
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .year-filter {
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .filter-button {
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 0.5rem 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: fit-content;
+  }
+  
+  .filter-button.active {
+    border-color: #4CAF50;
+    color: #4CAF50;
+    font-weight: bold;
+    background-color: #e9f7ee;
+  }
+  
+  .filter-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .tiles-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .travel-tile {
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .travel-tile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  }
+  
+  .travel-tile h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .travel-tile p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #555;
+  }
+
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+    padding: 24px;
+  }
+
+  .filter-button{
+    margin: 0.3em;
+  }
+
+
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-slide .filter-button {
+  animation: fadeSlideIn 2s ease;
+}
+
+  
+  
+
+  

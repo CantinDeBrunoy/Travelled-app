@@ -179,7 +179,7 @@ export const travels = [
         name: "Lacannau",
         country: "France",
         timeTravelled: 7,
-        people: ["Romain", "Wayl", "Lucas", "Félix", "Hélory", "Amir", "Théo"],
+        people: ["RoMayn", "Wayl", "Lucas", "Félix", "Hélory", "Amir", "Théo"],
         pictures: [],
         coordonate: {lat:46.344059,long:-1.438786},
         moneySpent: {
@@ -194,7 +194,7 @@ export const travels = [
         name: "La Tranche sur Mer",
         country: "France",
         timeTravelled: 7,
-        people: ["Romain", "Wayl", "Lucas", "Félix", "Hélory", "Amir", "Théo"],
+        people: ["RoMayn", "Wayl", "Lucas", "Félix", "Hélory", "Amir", "Théo"],
         pictures: [],
         coordonate: {lat:44.9785,long:-1.0757},
         moneySpent: {
@@ -475,7 +475,7 @@ export const travels = [
             activities: 0,
             meansOfTransports: 60
         },
-        date: "Mai 2024"
+        date: "May 2024"
     },
     {
         name: "Djerba",
@@ -490,7 +490,7 @@ export const travels = [
             activities: 300,
             meansOfTransports: 100
         },
-        date: "Mai 2024"
+        date: "May 2024"
     },
     {
         name: "Douz",
@@ -505,7 +505,7 @@ export const travels = [
             activities: 40,
             meansOfTransports: 10
         },
-        date: "Mai 2024"
+        date: "May 2024"
     },
     {
         name: "Séoul",
@@ -520,7 +520,7 @@ export const travels = [
             activities: 400,
             meansOfTransports: 80
         },
-        date: "Mai 2025"
+        date: "May 2025"
     },
     {
         name: "Hanoï",
@@ -535,7 +535,7 @@ export const travels = [
             activities: 40,
             meansOfTransports: 150
         },
-        date: "Mai 2025"
+        date: "May 2025"
     },
     {
         name: "Cat Ba",
@@ -550,7 +550,7 @@ export const travels = [
             activities: 200,
             meansOfTransports: 50
         },
-        date: "Mai 2025"
+        date: "May 2025"
     },
     {
         name: "Ninh Bình",
@@ -565,7 +565,7 @@ export const travels = [
             activities: 20,
             meansOfTransports: 50
         },
-        date: "Mai 2025"
+        date: "May 2025"
     },
     {
         name: "Ha Giang",
@@ -580,7 +580,7 @@ export const travels = [
             activities: 250,
             meansOfTransports: 0
         },
-        date: "Mai 2025"
+        date: "May 2025"
     },
     {
         name: "Beijing",
@@ -657,6 +657,36 @@ export const travels = [
         },
         date: "March 2025"
     },
+    {
+        name: "Turku",
+        country: "Finland",
+        timeTravelled: 4,
+        people: ["Wayl","Maxime","Romain","Lucy","Emilien"],
+        pictures: [],
+        coordonate: {lat:60.454510,long:22.264824},
+        moneySpent: {
+            hotel: 0,
+            food: 30,
+            activities: 100,
+            meansOfTransports: 200
+        },
+        date: "February 2025"
+    },
+    {
+        name: "Helsinki",
+        country: "Finland",
+        timeTravelled: 4,
+        people: ["Wayl"],
+        pictures: [],
+        coordonate: {lat: 60.192059,long: 24.945831},
+        moneySpent: {
+            hotel: 0,
+            food: 15,
+            activities: 0,
+            meansOfTransports: 300
+        },
+        date: "February 2025"
+    },
 ]
 
 export var countriesName = [
@@ -692,8 +722,10 @@ export var countriesName = [
     },
     {
         name: "United States"
-    }
-    ,
+    },
+    {
+        name: "Finland"
+    },
     {
         name: "China"
     },
